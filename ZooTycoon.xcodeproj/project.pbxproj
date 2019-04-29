@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		5C80DA48226E688D00EB5707 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C80DA47226E688D00EB5707 /* main.cpp */; };
+		5C80DA50226E6D1A00EB5707 /* Zoo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C80DA4E226E6D1A00EB5707 /* Zoo.cpp */; };
+		5C80DA53226E6D2500EB5707 /* Animal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C80DA51226E6D2500EB5707 /* Animal.cpp */; };
+		5C80DA56226E6D3200EB5707 /* Tiger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C80DA54226E6D3200EB5707 /* Tiger.cpp */; };
+		5C80DA59226E6D3E00EB5707 /* Penguin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C80DA57226E6D3E00EB5707 /* Penguin.cpp */; };
+		5C80DA5C226E6D4A00EB5707 /* Turtle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C80DA5A226E6D4A00EB5707 /* Turtle.cpp */; };
+		5C879A8C22753E5F00A722C9 /* Menu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C879A8A22753E5F00A722C9 /* Menu.cpp */; };
+		5C879A9022753E9600A722C9 /* inputValidation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C879A8F22753E9600A722C9 /* inputValidation.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,20 @@
 /* Begin PBXFileReference section */
 		5C80DA44226E688D00EB5707 /* ZooTycoon */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ZooTycoon; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C80DA47226E688D00EB5707 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5C80DA4E226E6D1A00EB5707 /* Zoo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Zoo.cpp; sourceTree = "<group>"; };
+		5C80DA4F226E6D1A00EB5707 /* Zoo.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Zoo.hpp; sourceTree = "<group>"; };
+		5C80DA51226E6D2500EB5707 /* Animal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Animal.cpp; sourceTree = "<group>"; };
+		5C80DA52226E6D2500EB5707 /* Animal.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Animal.hpp; sourceTree = "<group>"; };
+		5C80DA54226E6D3200EB5707 /* Tiger.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Tiger.cpp; sourceTree = "<group>"; };
+		5C80DA55226E6D3200EB5707 /* Tiger.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Tiger.hpp; sourceTree = "<group>"; };
+		5C80DA57226E6D3E00EB5707 /* Penguin.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Penguin.cpp; sourceTree = "<group>"; };
+		5C80DA58226E6D3E00EB5707 /* Penguin.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Penguin.hpp; sourceTree = "<group>"; };
+		5C80DA5A226E6D4A00EB5707 /* Turtle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Turtle.cpp; sourceTree = "<group>"; };
+		5C80DA5B226E6D4A00EB5707 /* Turtle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Turtle.hpp; sourceTree = "<group>"; };
+		5C879A8722753E5F00A722C9 /* Menu.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Menu.hpp; sourceTree = "<group>"; };
+		5C879A8A22753E5F00A722C9 /* Menu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Menu.cpp; sourceTree = "<group>"; };
+		5C879A8E22753E9600A722C9 /* inputValidation.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = inputValidation.hpp; sourceTree = "<group>"; };
+		5C879A8F22753E9600A722C9 /* inputValidation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = inputValidation.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +78,20 @@
 		5C80DA46226E688D00EB5707 /* ZooTycoon */ = {
 			isa = PBXGroup;
 			children = (
+				5C879A8E22753E9600A722C9 /* inputValidation.hpp */,
+				5C879A8F22753E9600A722C9 /* inputValidation.cpp */,
+				5C879A8722753E5F00A722C9 /* Menu.hpp */,
+				5C879A8A22753E5F00A722C9 /* Menu.cpp */,
+				5C80DA52226E6D2500EB5707 /* Animal.hpp */,
+				5C80DA51226E6D2500EB5707 /* Animal.cpp */,
+				5C80DA55226E6D3200EB5707 /* Tiger.hpp */,
+				5C80DA54226E6D3200EB5707 /* Tiger.cpp */,
+				5C80DA58226E6D3E00EB5707 /* Penguin.hpp */,
+				5C80DA57226E6D3E00EB5707 /* Penguin.cpp */,
+				5C80DA5B226E6D4A00EB5707 /* Turtle.hpp */,
+				5C80DA5A226E6D4A00EB5707 /* Turtle.cpp */,
+				5C80DA4F226E6D1A00EB5707 /* Zoo.hpp */,
+				5C80DA4E226E6D1A00EB5707 /* Zoo.cpp */,
 				5C80DA47226E688D00EB5707 /* main.cpp */,
 			);
 			path = ZooTycoon;
@@ -118,7 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C80DA50226E6D1A00EB5707 /* Zoo.cpp in Sources */,
+				5C80DA56226E6D3200EB5707 /* Tiger.cpp in Sources */,
+				5C80DA59226E6D3E00EB5707 /* Penguin.cpp in Sources */,
+				5C80DA5C226E6D4A00EB5707 /* Turtle.cpp in Sources */,
 				5C80DA48226E688D00EB5707 /* main.cpp in Sources */,
+				5C879A8C22753E5F00A722C9 /* Menu.cpp in Sources */,
+				5C80DA53226E6D2500EB5707 /* Animal.cpp in Sources */,
+				5C879A9022753E9600A722C9 /* inputValidation.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
